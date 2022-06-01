@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+background-color: #e0e0e0;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.imageForAvatar {
+    width: 200;
+    height: auto;
+    max-width: 400px;
+    border-radius: 28px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.infoAtTitle {
+    display: flex;
+    /* font-style: italic; */
+}
+
+.infoAtTitleTextualPart {
+    margin-left: 40px;
+    text-align: left;
+}
+
+.bg-yellow {
+        background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5eef7;
+}
+
+.tableExperiences {
+    margin: auto;
+    /* width: 85%; */
+}
+
+.tableExperiences td {
+    margin-bottom: 10px;
+}
+
+.contactForm {
+    text-align: center;
+}
+
+.inputFormsTextArea input, 
+.inputFormsTextArea textarea {
+
+    font-family: inherit;
+    background: transparent;
+    width: 100%;
+    
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .inputFormsTextArea {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .inputFormsTextArea:last-child {
+    margin-right: 0px;
+}
+
+
+@media (max-width: 1100px) {
+    .infoAtTitle {
+        text-align: center;
+        display: block;
+    }
+}
